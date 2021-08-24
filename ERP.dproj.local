@@ -2,18 +2,18 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/10/24 17:24:09.000.625,=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:30:13.697,=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:34:49.708,D:\DELPHI\erp\ULogin.dfm=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021/08/23 21:34:49.708,D:\DELPHI\erp\ULogin.pas=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:35:01.684,D:\DELPHI\erp\ERP.dproj=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2021/08/23 21:35:33.701,=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:36:29.287,D:\DELPHI\erp\UMenu.pas=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:36:29.287,D:\DELPHI\erp\UMenu.dfm=D:\DELPHI\erp\Unit1.dfm</Transaction>
-    <Transaction>2021/08/23 21:48:22.879,=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 21:49:11.050,D:\DELPHI\erp\UCadUsuario.dfm=D:\DELPHI\erp\Unit1.dfm</Transaction>
-    <Transaction>2021/08/23 21:49:11.050,D:\DELPHI\erp\UCadUsuario.pas=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 22:12:28.951,=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 22:12:47.863,D:\DELPHI\erp\UDM.pas=D:\DELPHI\erp\Unit1.pas</Transaction>
-    <Transaction>2021/08/23 22:12:47.863,D:\DELPHI\erp\UDM.dfm=D:\DELPHI\erp\Unit1.dfm</Transaction>
+    <Transaction>2021/08/23 21:30:13.000.697,=C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/23 21:34:49.000.708,C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\DELPHI\erp\ULogin.pas</Transaction>
+    <Transaction>2021/08/23 21:34:49.000.708,C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\DELPHI\erp\ULogin.dfm</Transaction>
+    <Transaction>2021/08/23 21:35:01.000.684,C:\Users\JESSE\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\DELPHI\erp\ERP.dproj</Transaction>
+    <Transaction>2021/08/23 21:35:33.000.701,=D:\DELPHI\erp\Unit1.pas</Transaction>
+    <Transaction>2021/08/23 21:36:29.000.287,D:\DELPHI\erp\Unit1.pas=D:\DELPHI\erp\UMenu.pas</Transaction>
+    <Transaction>2021/08/23 21:36:29.000.287,D:\DELPHI\erp\Unit1.dfm=D:\DELPHI\erp\UMenu.dfm</Transaction>
+    <Transaction>2021/08/23 21:48:22.000.879,=D:\DELPHI\erp\Unit1.pas</Transaction>
+    <Transaction>2021/08/23 21:49:11.000.050,D:\DELPHI\erp\Unit1.pas=D:\DELPHI\erp\UCadUsuario.pas</Transaction>
+    <Transaction>2021/08/23 21:49:11.000.050,D:\DELPHI\erp\Unit1.dfm=D:\DELPHI\erp\UCadUsuario.dfm</Transaction>
+    <Transaction>2021/08/23 22:12:28.000.951,=D:\DELPHI\erp\Unit1.pas</Transaction>
+    <Transaction>2021/08/23 22:12:47.000.863,D:\DELPHI\erp\Unit1.pas=D:\DELPHI\erp\UDM.pas</Transaction>
+    <Transaction>2021/08/23 22:12:47.000.863,D:\DELPHI\erp\Unit1.dfm=D:\DELPHI\erp\UDM.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -161,6 +161,11 @@ object FRMCadUsuario: TFRMCadUsuario
       ImageIndex = 1
     end
   end
+  object sDados: TDataSource
+    DataSet = qDados
+    Left = 480
+    Top = 65528
+  end
   object qDados: TFDQuery
     Connection = DM.conexao
     SQL.Strings = (
@@ -186,10 +191,5 @@ object FRMCadUsuario: TFRMCadUsuario
       Required = True
       Size = 15
     end
-  end
-  object sDados: TDataSource
-    DataSet = qDados
-    Left = 480
-    Top = 65528
   end
 end

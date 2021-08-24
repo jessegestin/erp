@@ -12,10 +12,6 @@ uses
 
 type
   TFRMCadUsuario = class(TForm)
-    qDados: TFDQuery;
-    qDadosid: TIntegerField;
-    qDadosusuario: TWideStringField;
-    qDadossenha: TWideStringField;
     sDados: TDataSource;
     pcUsuario: TPageControl;
     tsLista: TTabSheet;
@@ -33,6 +29,10 @@ type
     btConsultar: TButton;
     btExcluir: TButton;
     gFIltro: TDBGrid;
+    qDados: TFDQuery;
+    qDadosid: TIntegerField;
+    qDadosusuario: TWideStringField;
+    qDadossenha: TWideStringField;
     procedure FormShow(Sender: TObject);
     procedure btFiltrarClick(Sender: TObject);
   private
@@ -51,8 +51,8 @@ uses UDM;
 
 procedure TFRMCadUsuario.btFiltrarClick(Sender: TObject);
 begin
-  qDados.Close;
-  qDados.open;
+  qdados.Close;
+  qDados.Active := True;
 end;
 
 procedure TFRMCadUsuario.FormShow(Sender: TObject);
