@@ -1,0 +1,66 @@
+object FRMCadUsuario: TFRMCadUsuario
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Usu'#225'rio'
+  ClientHeight = 395
+  ClientWidth = 691
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pcUsuario: TPageControl
+    Left = 0
+    Top = 0
+    Width = 691
+    Height = 395
+    ActivePage = tsLista
+    Align = alClient
+    TabOrder = 0
+    object tsLista: TTabSheet
+      Caption = 'tsLista'
+    end
+    object tsDados: TTabSheet
+      Caption = 'tsDados'
+      ImageIndex = 1
+    end
+  end
+  object qDados: TFDQuery
+    Active = True
+    Connection = DM.conexao
+    SQL.Strings = (
+      'select *'
+      'from usuarios'
+      'order by usuario')
+    Left = 624
+    object qDadosid: TIntegerField
+      FieldName = 'id'
+      Origin = 'id'
+      Required = True
+    end
+    object qDadosusuario: TWideStringField
+      FieldName = 'usuario'
+      Origin = 'usuario'
+      Required = True
+      Size = 15
+    end
+    object qDadossenha: TWideStringField
+      FieldName = 'senha'
+      Origin = 'senha'
+      Required = True
+      Size = 15
+    end
+  end
+  object sDados: TDataSource
+    DataSet = qDados
+    Left = 656
+    Top = 48
+  end
+end

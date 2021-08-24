@@ -1,0 +1,14 @@
+program ERP;
+
+uses
+  Vcl.Forms,
+  ULogin in 'ULogin.pas' {FRMLogin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFRMLogin, FRMLogin);
+  Application.Run;
+end.

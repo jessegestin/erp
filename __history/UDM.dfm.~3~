@@ -1,0 +1,18 @@
+object DM: TDM
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 558
+  Width = 861
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=D:\DELPHI\erp\Win32\Debug\bd_erp'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 32
+    Top = 8
+  end
+  object driver: TFDPhysSQLiteDriverLink
+    Left = 112
+    Top = 8
+  end
+end
